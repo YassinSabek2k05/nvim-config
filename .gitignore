@@ -1,0 +1,5 @@
+.DS_Store
+undo/
+backup/
+swap/
+/lua/config/local.lua  # For machine-specific tweaks
