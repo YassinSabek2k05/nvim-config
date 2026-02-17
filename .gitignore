@@ -1,5 +1,12 @@
-.DS_Store
+# Ignore plugin installation files (Lazy downloads these automatically)
+/lazy-lock.json.bak
+/plugin/
+
+# Ignore Neovim temporary files
+*.swp
+*.swo
 undo/
 backup/
-swap/
-/lua/config/local.lua  # For machine-specific tweaks
+
+# Optional: Ignore local machine-specific settings
+# lua/config/local.lua
