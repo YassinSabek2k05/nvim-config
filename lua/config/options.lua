@@ -20,3 +20,11 @@ vim.g.clipboard = {
 }
 
 vim.opt.clipboard = "unnamedplus"
+
+vim.opt.termguicolors = true
+vim.opt.scrolloff = 8
+vim.opt.smoothscroll = true
+vim.opt.laststatus = 3
+vim.opt.cursorline = true
+vim.opt.pumblend = 10
+vim.opt.winblend = 10
